@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="result.html" method="GET">
+        <div>
+            <label>Choose a car:</label>
+            <br>
+            <select id="car" name="cars" multiple size="3">
+                <option>-Choose a Car-</option>
+                <optgroup label="Lüks Arabalar">
+                    <option value="Porsche">Porsche</option>
+                    <option value="Maserati">Maserati</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Tesla">Tesla</option>
+                </optgroup>
+                <optgroup label="binek araçlar">
+                    <option value="Toyota">Toyota</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="message">Enter Comment here:</label><br>
+            <textarea name="message" id="message" rows="10" cols="15">Enter your mesaage here</textarea>
+        </div>
+        <div>
+            <label for="input-browser">Browsers:</label><br>
+            <input type="text" list="browsers" name="options" id="input-browser">
+            <datalist id="browsers">
+                <option value="Firefox"></option>
+                <option value="Chrome"></option>
+                <option value="Opera"></option>
+                <option value="Safari"></option>
+                <option value="IE"></option>
+            </datalist>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Personel Info</legend>
+                <label for="fname">First Name</label>
+                <br>
+                <input type="text" name="firstName" id="fname" value="Mccarthy">
+                <br>
+                <label for="lname">Last Name</label>
+                <br>
+                <input type="text" name="lastName" id="lname" placeholder="Silva">
+            </fieldset>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
