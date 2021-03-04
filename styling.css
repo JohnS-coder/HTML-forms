@@ -1,0 +1,69 @@
+html {
+    font-size: 16px;
+}
+body{
+    font-size: 16px; /*1em = 16px*/
+}
+h1 {
+  background-color: aqua;
+  border: 1px solid;
+  margin: 50px;
+  padding: 10px;
+  /* text-align: left; */
+  text-transform: lowercase;
+  /* text-indent: 50px; */
+  /* letter-spacing: 5px; */
+  /* line-height: 2.5; */
+  /* direction: rtl; */
+  /* unicode-bidi: bidi-override; */
+  /* word-spacing: 40px; */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-size: 1em;
+  font-weight: 900;
+}
+p {
+    border: 1px solid red;
+    background-color: green;
+    color: #ffffff;
+    font-size: 5vw;
+    padding: 20px;
+    margin: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+  }
+#heading {
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: xx-large;
+    font-weight: lighter;
+    font-variant:small-caps;
+}
+h2 {
+  /* text-shadow: -3px -5px 3px red; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique 40;
+  font-size: 300%
+}
+
+#link-1{
+    color: #062e06;
+    background-color: aquamarine;
+    font-size: 2px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 15px;
+    text-decoration: line-through;
+}
+
+#link-1:visited{
+    color: #062e06;
+    background-color: rgb(182, 158, 21);
+}
+
+#link-1:hover{
+    background-color: crimson;
+    cursor: pointer;
+}

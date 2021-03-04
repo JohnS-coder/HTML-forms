@@ -30,6 +30,7 @@ body {
     box-sizing: border-box;
     margin: 5px;
     font-family: 'Oi', cursive;
+    font-variant: small-caps;
 }
 
 h2{
