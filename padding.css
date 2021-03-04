@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box; /*for all elements*/
+}
+body {
+    font-size: 16px;
+}
+
+.main{
+    background-color: aqua;
+    width: 500px;
+}
+
+.main1{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid ;
+    margin: 5px;
+    box-sizing: content-box;
+    /* unicode-bidi: bidi-override; */
+}
+
+.main2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    padding: 20px;
+    border: 5px solid;
+    box-sizing: border-box;
+    margin: 5px;
+    font-family: 'Oi', cursive;
+}
