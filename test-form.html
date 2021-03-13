@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="test-form-style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="div-sign">
+        <input type="button" value="Sign Up" class="sign" />
+      </div>
+      <div class="info">
+        <fieldset>
+          <legend>Your Basic Info</legend>
+          <form action="#">
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" /><br /><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" /><br /><br />
+            <label for="upass">Password:</label><br />
+            <input type="password" id="upass" name="password" /><br /><br />
+            <div>
+              <label for="age">Age:</label><br />
+              <input type="radio" name="age" id="age" value="Under 13" />Under
+              13<br />
+              <input type="radio" name="age" id="age2" value="Over 13" />Over 13
+            </div>
+          </form>
+        </fieldset>
+      </div>
+      <div class="info">
+        <fieldset>
+          <legend>Your Profile:</legend>
+          <form action="#">
+            <label for="bio">Bio:</label><br />
+            <textarea name="bio" id="bio" cols="30" rows="3"></textarea
+            ><br /><br />
+            <label for="Job Role">Job Role:</label><br />
+            <select name="role" id="Job Role" style="padding: 5px">
+              <br />
+              <option value="front end developer" disabled selected>
+                Front-End Developer
+              </option>
+              <option value="Backend Developer">
+                Backend Developer
+              </option></select
+            ><br /><br />
+            <div>
+              <label for="check">Interests:</label><br />
+              <input
+                type="checkbox"
+                name="development"
+                id="development"
+                value="Development"
+              />Development <br />
+              <input type="checkbox" name="design" id="design" />design <br />
+              <input type="checkbox" name="business" id="business" />Business
+              <br />
+            </div>
+          </form>
+        </fieldset>
+        <br />
+        <input type="button" value="Sign Up" class="sign sign2" />
+      </div>
+    </div>
+  </body>
+</html>
